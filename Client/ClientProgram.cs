@@ -5,11 +5,14 @@ using Utillities;
 
 namespace Client
 {
-    
-    class ClientProgram
+
+    class ClientProgram : IHandler
     {
-        static void Main(string[] args)
-        {
+        
+    }
+
+    static void Main(string[] args)
+    {
 
             var client = new NetworkClient();
 
@@ -22,6 +25,6 @@ namespace Client
 
             Console.WriteLine($"Server response '{response}'");
 
-        }
     }
+    
 }

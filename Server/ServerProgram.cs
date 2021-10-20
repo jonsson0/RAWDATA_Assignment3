@@ -6,7 +6,7 @@ using Utillities;
 
 namespace Server
 {
-    class ServerProgram
+    class ServerProgram : IHandler
     {
         static void Main(string[] args)
         {
