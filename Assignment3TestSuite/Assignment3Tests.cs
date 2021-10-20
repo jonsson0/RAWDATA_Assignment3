@@ -49,7 +49,6 @@ namespace Assignment3TestSuite
         }
 
 #if COMMENT
-
         /*    Method Tests     */
 
         [Fact]
