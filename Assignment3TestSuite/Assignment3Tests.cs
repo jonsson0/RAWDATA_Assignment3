@@ -33,19 +33,22 @@ namespace Assignment3TestSuite
     {
         private const int Port = 5000;
 
-#if COMMENT
+
         //////////////////////////////////////////////////////////
         /// 
         /// Testing Constrains
         /// 
         ////////////////////////////////////////////////////////// 
 
-        [Fact]
+        // Fact 01
+        [Fact]  
         public void Constraint_ConnectionWithoutRequest_ShouldConnect()
         {
             var client = Connect();
             Assert.True(client.Connected);
         }
+
+#if COMMENT
 
         /*    Method Tests     */
 
